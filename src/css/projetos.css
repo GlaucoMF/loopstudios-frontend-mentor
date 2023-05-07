@@ -1,0 +1,74 @@
+.projetos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.projetos .titulo{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    width: 900px;
+}
+
+.projetos .titulo h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.projetos .titulo span{
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 8px;
+    width: 110px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.projetos .titulo span:hover{
+    background-color: black;
+    color: #FFF;
+}
+
+.projetos .projeto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 900px;
+    justify-content: center;
+    align-self: center;
+    margin-top: 90px;
+}
+
+.projetos .projeto .img img{
+    width: 210px;
+    margin-bottom: 40px;
+}
+
+.projetos .projeto .img h3{
+    color: #FFF;
+    margin-top: -100px;
+    font-size: 2.5rem;
+    width: 150px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.projetos .projeto .img{
+    transition: 0.2s;
+}
+
+.projetos .projeto .img:hover img{
+    opacity: 0.3;
+}
+
+.projetos .projeto .img:hover h3{
+    color: black;
+}
